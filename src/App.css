@@ -1,0 +1,87 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f3f7;
+}
+.main_box {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+.main_box .logo {
+  padding: 30px 0;
+}
+.main_box .todoFrom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main_box .todoFrom .input-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1D3A62;
+  width: 70%;
+  height: 50px;
+  background: #fdfeff;
+  border-radius: 10px 0 0 10px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.main_box .todoFrom button {
+  width: 30%;
+  height: 50px;
+  background: #060b2a;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+.main_box .todoFrom button:hover {
+  background: red;
+}
+.main_box .allTods {
+  padding: 0;
+  margin: 20px 0 0 0;
+  list-style: none;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 16px 35px rgb(6 11 42 / 10%);
+}
+.main_box .allTods .singleTodo {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  border-top: solid 1px #ccc;
+  padding: 18px 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+.main_box .allTods .singleTodo:first-child {
+  border-top: none;
+}
+.main_box .allTods .singleTodo button {
+  float: right;
+  border: none;
+  background: red;
+  font-size: 12px;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 50px;
+  margin: 0 0 0 10px;
+  cursor: pointer;
+}
+.main_box .allTods .singleTodo button:hover {
+  background: #060b2a;
+}
+.main_box .allTods .singleTodo .edit-button { 
+  background: green;
+}
+.main_box .allTods .singleTodo .singleText {
+	padding-top: 3px;
+	display: inline-block;
+}
